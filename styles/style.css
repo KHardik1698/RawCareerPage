@@ -22,8 +22,9 @@ body {
   background-color: black;
   display: grid;
   padding: 3vh;
-  /* position: sticky;
-  top: 0px; */
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 .logo-container {
   grid-area: header;
