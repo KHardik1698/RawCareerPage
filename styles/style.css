@@ -273,13 +273,15 @@ body {
   grid-row: 1/2;
   justify-self: center;
   align-self: center;
-  font-size: 2vw;
+  font-size: 5vh;
   font-weight: 700;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
 }
 .blue-button {
   grid-column: 1/2;
   grid-row: 2/3;
-  font-size: 1.5vw;
+  font-size: 3vh;
   padding: 10px 30px;
   display: inline;
   margin: none;
@@ -292,9 +294,9 @@ body {
 .footer-icons {
   grid-column: 1/2;
   grid-row: 3/4;
-  margin-right: 10vh;
+  margin: 5vh 0px;
+  margin-right: 3vh;
   justify-self: right;
-  /* align-self: center; */
 }
 .footer-icons i {
   padding: 3vh;
@@ -303,6 +305,7 @@ body {
 .copyright {
   grid-column: 1/2;
   grid-row: 3/4;
+  margin: 10vh 0px;
   margin-left: 10vh;
   justify-self: left;
   align-self: center;
@@ -375,9 +378,13 @@ body {
     grid-row: 5/6;
     align-self: none;
   }
+  .page-divider {
+    margin: 10vw 0px;
+  }
   .browse-jobs-list {
     font-size: 2vw;
     padding: 10vw 0px;
+    margin-bottom: 10vw;
   }
   .department-list {
     width: 90vw;
@@ -398,6 +405,30 @@ body {
     grid-column: 1/2;
     grid-row: 3/4;
     justify-self: center;
+  }
+  .footer-description {
+    font-size: 3vw;
+  }
+  .blue-button {
+    font-size: 1.5vw;
+    padding: 1vw 3vw;
+  }
+  .footer-icons {
+    grid-row: 3/4;
+    justify-self: center;
+  }
+  .footer-icons i {
+    padding: 3vw;
+    font-size: 3vh;
+  }
+  .copyright {
+    grid-row: 4/5;
+    font-size: 3vw;
+    margin: 3vw;
+    justify-self: center;
+  }
+  .copyright img {
+    width: 10vw;
   }
 }
 
@@ -421,5 +452,22 @@ body {
   .department-list {
     font-size: 5vw;
     padding: 1vw 0px;
+  }
+  .footer-description {
+    margin: 0px;
+    margin-top: 3vh;
+  }
+  .footer-icons {
+    margin: 0px;
+  }
+  .footer-icons i {
+    font-size: 5vw;
+  }
+  .copyright {
+    margin: 0px;
+  }
+  .copyright a {
+    display: block;
+    padding: 0px;
   }
 }
