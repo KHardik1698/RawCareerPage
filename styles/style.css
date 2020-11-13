@@ -425,6 +425,7 @@ body {
     grid-row: 4/5;
     font-size: 3vw;
     margin: 3vw;
+    margin-bottom: 10vw;
     justify-self: center;
   }
   .copyright img {
@@ -465,6 +466,7 @@ body {
   }
   .copyright {
     margin: 0px;
+    margin-bottom: 10vw;
   }
   .copyright a {
     display: block;
