@@ -227,8 +227,6 @@ body {
   display: grid;
 }
 .post-list {
-  /* grid-column: 1/2;
-  grid-row: 4/5; */
   display: grid;
 }
 .post {
@@ -377,8 +375,29 @@ body {
     grid-row: 5/6;
     align-self: none;
   }
+  .browse-jobs-list {
+    font-size: 2vw;
+    padding: 10vw 0px;
+  }
+  .department-list {
+    width: 90vw;
+    height: 8vw;
+    font-size: 2vh;
+  }
+  .post {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: left;
+  }
+  .post-info {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: left;
+  }
   .divider {
-    margin: 10px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: center;
   }
 }
 
@@ -398,5 +417,9 @@ body {
   .red-line {
     width: 25px;
     height: 1px;
+  }
+  .department-list {
+    font-size: 5vw;
+    padding: 1vw 0px;
   }
 }
